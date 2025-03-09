@@ -1,21 +1,82 @@
-# Padrões de commits 📜
+# 📜 Padrões de Commits 🎯
 
-O commit semântico possui os elementos estruturais abaixo, exemplo de nova feature: 
-`git commit -m 'feature/LOC-01/adicionando funcionalidade X`:
+## 📝 Formato do Commit  
 
-- `feature`- Commits do tipo feat indicam que seu trecho de código está incluindo um **novo recurso** (se relaciona com o MINOR do versionamento semântico).
+💡 **Exemplo:**  
+`feat US001: Adiciona configuração inicial do PostCSS com TailwindCSS e Autoprefixer`
 
-- `fix` - Commits do tipo fix indicam que seu trecho de código commitado está **solucionando um problema** (bug fix), (se relaciona com o PATCH do versionamento semântico).
+---
 
-- `docs` - Commits do tipo docs indicam que houveram **mudanças na documentação**, como por exemplo no Readme do seu repositório. (Não inclui alterações em código).
+## 🎯 Exemplos de Commits  
+✅ `feat US123: Adiciona endpoint para cadastro de usuários`  
+🐞 `fix US456: Corrige bug na validação de senha`  
+🔧 `refactor US789: Refatora serviço de autenticação`  
 
-- `test` - Commits do tipo test são utilizados quando são realizadas **alterações em testes**, seja criando, alterando ou excluindo testes unitários. (Não inclui alterações em código)
+---
 
-- `refactor` - Commits do tipo refactor referem-se a mudanças devido a **refatorações que não alterem sua funcionalidade**, como por exemplo, uma alteração no formato como é processada determinada parte da tela, mas que manteve a mesma funcionalidade, ou melhorias de performance devido a um code review.
+## 🚀 Tipos de Commits  
 
-# Padrões de branch 📜
+- ✨ **feat**: Adição de nova funcionalidade  
+- 🐛 **fix**: Correção de bug  
+- 🔨 **refactor**: Refatoração de código sem alterar funcionalidade  
+- 📚 **docs**: Atualização de documentação  
+- 🧪 **test**: Adição ou modificação de testes  
+- 🔧 **chore**: Atualização de dependências ou tarefas internas do projeto  
+- 🎨 **style**: Ajustes de formatação, espaçamento e convenções de estilo  
 
-O padrão da criação da branch é a `ação/loc-Número da task`, exemplo de nova branch: 
+---
 
-- task 01 - Cadastro e visualização do usuário
-- branch - feature/LOC-01/
+## 📌 Regras Gerais  
+
+✔ Sempre referencie uma **US (User Story)** no commit 📌  
+✔ Mantenha a descrição **curta e objetiva** ✍️  
+✔ Utilize **verbos no presente do indicativo** (ex: "Adiciona", "Corrige", "Refatora") ⏳  
+❌ **Evite commits genéricos** como "Ajustes" ou "Correções diversas" 🚫  
+
+---
+
+# 🌿 Padrão de Branches  
+
+## 🏷 **Formato do Nome da Branch**  
+
+
+📌 **Exemplos:**  
+- `feat/US123-endpoint-cadastro-usuarios` 🚀  
+- `fix/US456-correcao-validacao-senha` 🐞  
+- `refactor/US789-refatora-servico-autenticacao` 🔧  
+
+---
+
+## 🔖 Tipos de Branches  
+
+### ✨ **`feat/` → Novas funcionalidades**  
+🛠 Ex: `feat/US101-api-listagem-produtos`  
+
+### 🐞 **`fix/` → Correções de bugs**  
+🔍 Ex: `fix/US202-corrige-erro-login`  
+
+### 🔧 **`refactor/` → Refatoração de código**  
+⚡ Ex: `refactor/US303-melhora-performance-consulta`  
+
+### 📚 **`docs/` → Atualização da documentação**  
+📖 Ex: `docs/US404-atualiza-readme`  
+
+### 🧪 **`test/` → Adição ou modificação de testes**  
+📝 Ex: `test/US505-adiciona-testes-unitarios`  
+
+### 🔨 **`chore/` → Manutenção e tarefas internas do projeto**  
+⚙️ Ex: `chore/US606-atualiza-dependencias`  
+
+### 🎨 **`style/` → Ajustes de formatação, espaçamento e convenções de código**  
+💅 Ex: `style/US707-padroniza-linter`  
+
+---
+
+## 📌 Regras Gerais  
+
+✔ Sempre inclua o prefixo do **tipo** da branch 🏷  
+✔ Sempre referencie uma **US** (User Story) 📝  
+✔ Use **hífens (-)** para separar palavras na descrição ✍️  
+✔ Mantenha a descrição **curta e clara** 🔍  
+
+🎯 **Seguindo esse padrão, garantimos um fluxo organizado e fácil de entender no repositório!** 🚀✨  
